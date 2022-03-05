@@ -108,11 +108,21 @@ margin-top: 15px;
 .item img{
     border-radius: 45px;
 margin-left: 50px;
-margin-top: -10px;
+margin-top: 20px;
 }
-.item h1, p{
-    padding-left: 50px;
-}
+
+    .item h1{
+        margin-top: 10px;
+        padding-left: 70px;
+        font-size: 15px;
+        color: white;
+    }
+    .item p{
+        margin-top: 0px;
+        padding-left: 70px;
+        font-size: 15px;
+        color: white;
+    }
 #bids{
     width: 154px;
     height: 42px;
@@ -124,40 +134,37 @@ margin-top: -10px;
 .bid-cards{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 200px;
-    margin: 5px;
+    padding-left: 100px;
+    margin-left: 85px;
 }
 .bid-items{
-    height: 280px;
-    width: 250px;
-    border-radius: 25px;
-    background-color: #2A2D3A
-;
-    margin-left: 24px;
-    margin-top: 15px;
+    width: 233px;
+    height: 340px;
+    background-color: #2A2D3A;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
 }
 .bid-items img{
-    height: 150px;
-    width: 230px;
-    border-radius: 15px;
-    margin-top: 5px;
-    margin-left: 10px;
+    padding-left: 13px;
+    padding-top: 9px;
 }
 .bid-items h1, p{
     padding-left: 10px;
+    font-size: 20px;
     color: white;
 }
 #load-btn{
-    width: 350px;
-    height: 40px;
-    background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        width: 350px;
+        height: 40px;
+        background: #24252D;
+        border: 2px solid #DA18A3;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #DA18A3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 #btn{
     display: flex;
