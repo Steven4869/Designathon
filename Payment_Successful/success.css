@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+  position: absolute;
+  width: 1438px;
+  height: 1147px;
+  left: 0px;
+  top: 0px;
+
+  /* Black/2 */
+
+  background: #1b1a21;
+  opacity: 0.9;
+}
+.pop-box {
+  position:relative;
+  width: 585px;
+  height: 581px;
+  left: 448px;
+  top: 283px;
+
+  /* Dark */
+
+  background: #24252d;
+  /* Black/1 */
+
+  border: 1px solid #2d2e36;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.title {
+  position: absolute;
+  width: 248px;
+  height: 36px;
+  left: 180px;
+  top: 0px;
+
+  /* Heading 2 */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 25px 0px;
+}
+#line {
+  position: relative;
+  left: 0px;
+  top: 50px;
+
+  /* Black/1 */
+
+  border: 1px solid #2d2e36;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 25px 0px;
+}
+img {
+  position: relative;
+  width: 211px;
+  height: 206px;
+  left: 186.5px;
+  top: 25px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 30px 0px;
+}
+
+p {
+    position: relative;
+    width: 365px;
+    height: 55px;
+    left: 109.5px;
+    top: 2px;
+    
+    /* Paragraph 1 (Regular) */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    
+    /* White */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+#lline {
+    position: relative;
+    left: 0px;
+    top: 0px;
+  
+    /* Black/1 */
+  
+    border: 1px solid #2d2e36;
+  
+
+  }
+
+  .share{
+    position: relative;
+    text-align: center;
+    /* Heading 2 */
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+  
+    /* White */
+  
+    color: #ffffff;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 0px;
+  }
