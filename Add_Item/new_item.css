@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@font-face {
+  font-family: "Gotham";
+  src: url(GothamLight.otf);
+}
+
+body {
+  font-family: Poppins;
+  font-style: normal;
+  background-color: #24252d;
+  color: white;
+}
+nav ,#search-bar::placeholder{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  width: 67.85px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #4f4f4f;
+}
+
+li a:hover {
+  color: white;
+}
+
+#title {
+  margin-top: 8px;
+  width: 123px;
+  height: 18px;
+  color: white;
+}
+
+#search-bar {
+  width: 627px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: black;
+}
+
+#search-btn {
+  width: 150px;
+  height: 40px;
+  background: linear-gradient(
+    101.12deg,
+    #eb1484 27.35%,
+    #c91cc3 99.99%,
+    #c81cc5 100%,
+    #c81cc5 100%
+  );
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+}
+#connect-btn {
+  width: 150px;
+  height: 40px;
+  background: #24252d;
+  border: 2px solid #da18a3;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #da18a3;
+  font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+}
+#profile-picture {
+  width: 238px;
+  height: 238px;
+  margin-left: 600px;
+  border-radius: 130px;
+  margin-top: -130px;
+  border: 4px solid #24252d;
+}
+.container {
+  position: relative;
+  left: 420px;
+  top: 35px;
+  width: 610px;
+  height: 329px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  color: white;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.f_elements {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+}
+#name,
+#description,
+#price {
+  padding: 17px 29px;
+  position: relative;
+  width: 570px;
+  height: 10px;
+  top: -10px;
+  background: #2d2e36;
+  border-radius: 10px;
+  border: 2px solid #2d2e36;
+  margin: 20px 0px;
+}
+#name::placeholder,
+#description::placeholder,
+#price::placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+#description::placeholder {
+  text-align: left;
+  position: relative;
+  top: -70px;
+}
+.upload {
+  position: relative;
+  top: 20px;
+  width: 610px;
+  height: 329px;
+  background-color: #2d2e36;
+  border: 1px dashed #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+#myFile {
+  display: none;
+  position: absolute;
+  width: 610px;
+  height: 300px;
+  left: 0px;
+  size: 900;
+  background: #000;
+}
+#desc {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.info {
+  position: relative;
+  top: 30.42px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+#citem {
+  position: relative;
+  width: 145px;
+  height: 45px;
+  background: linear-gradient(
+    101.12deg,
+    #eb1484 27.35%,
+    #c91cc3 99.99%,
+    #c81cc5 100%,
+    #c81cc5 100%
+  );
+  border-radius: 10px;
+  border: 2px solid #f33698;
+  left: 490px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+footer {
+  font-family: Gotham;
+}
+.container2 {
+  font-family: Gotham;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 800px;
+  margin: 30px;
+}
+.footer-items {
+  color: white;
+}
+#email-btn {
+  background: linear-gradient(
+    101.12deg,
+    #eb1484 27.35%,
+    #c91cc3 99.99%,
+    #c81cc5 100%,
+    #c81cc5 100%
+  );
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  width: 90px;
+  height: 21px;
+}
+#email-input {
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  background: black;
+}
+.copyright p {
+  color: white;
+}
+.brands {
+  margin-left: 93%;
+  display: flex;
+  color: white;
+}
+.copyright {
+  position: relative;
+  top: 780px;
+}
+#hr1 {
+  position: relative;
+  top: 780px;
+  border: 1px solid #2d2e36;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
