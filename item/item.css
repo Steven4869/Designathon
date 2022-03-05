@@ -1,0 +1,90 @@
+body {
+    background-color: #24252D;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style: none;
+    width: 67.85px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #4F4F4F;
+}
+
+li a:hover {
+    color: white;
+}
+
+#title {
+    margin-top: 8px;
+    width: 123px;
+    height: 18px;
+    color: white;
+}
+
+#search-bar {
+    width: 627px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: black;
+}
+
+#search-btn {
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+#connect-btn{
+    width: 150px;
+    height: 40px;
+    background: #24252D;
+    border: 2px solid #DA18A3;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #DA18A3;
+    
+}
+.main{
+    display: flex;
+}
+.main img{
+    width: 542px;
+height: 542px;
+border-radius:20px ;
+padding-top: 188px;
+    padding-left: 165px;
+}
+.main h1{
+    color: white;
+    padding-top: 178px;
+    padding-left: 250px;
+}
+.popular{
+    display: flex;
+}
+.creator{
+    display: flex;
+    flex-direction: column;
+}
+.creator img{
+    width: 54px;
+    height: 54px;
+    border-radius: 20px;
+}
