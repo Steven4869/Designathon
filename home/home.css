@@ -210,3 +210,76 @@ height: 21px;
     display: flex;
     color: white;
 }
+@media screen and (max-width: 768px) {
+    #title-content{
+        font-size: 20px;
+    color: white;
+    padding-top: 60px;
+    padding-left: 0px;
+    }
+    .center{
+        width: 370px;
+    height: 153px;
+    margin-top: 30px;
+    margin-left: 0px;
+    }
+    .seller h4{
+        width: 130px;
+        height: 42px;
+        font-size: 25px;
+        color: white;
+        padding-left: 20px;
+    }
+    .cards-1{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px;
+        padding-left: 0px;
+    }
+    #bids{
+
+    width: 154px;
+    height: 42px;
+    font-size: 28px;
+    color: white;
+    padding-left: 60px;
+
+    }
+    .bid-cards{
+        display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    margin-left: 0px;
+    }
+    .container{
+        display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+    .brands{
+        display: flex;
+    color: white;
+    }
+    #title{
+        display: none;
+    }
+    li{
+        display: none;
+    }
+    #search-btn,#connect-btn{
+        display: none;
+    }
+    ul{
+        display: flex;
+        justify-content: flex-start;
+    }
+    #search-bar{
+        width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: black;
+    padding-left: 17px;
+    margin-left: 30px;
+    }
+}

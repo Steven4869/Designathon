@@ -160,3 +160,65 @@ height: 21px;
     display: flex;
     color: white;
 }
+.bg h1{
+    color: white;
+    text-align: center;
+}
+.recently{
+    background-color: #1B1A21;
+    height: 40px;
+    width: 164px;
+    border-radius: 10px;
+    color: white;
+    padding-left: 20px;
+    margin-left: 25px;
+}
+@media screen and (max-width: 768px){
+    .brands{
+        display: flex;
+    color: white;
+    margin-left: 0px;
+    }
+    #title{
+        display: none;
+    }
+    li{
+        display: none;
+    }
+    #search-btn,#connect-btn{
+        display: none;
+    }
+    ul{
+        display: flex;
+        justify-content: flex-start;
+    }
+    #search-bar{
+        width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: black;
+    padding-left: 17px;
+    margin-left: 30px;
+    }
+    #background-pic{
+        width: 130%;
+    }
+    #profile-picture{
+        width: 150px;
+    height: 150px;
+    margin-left: 124px;
+    border-radius: 90px;
+    margin-top: -70px;
+    border: 4px solid #24252D;
+    }
+    .search {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
